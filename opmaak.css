@@ -148,3 +148,42 @@ header p{
 #naastelkaar i{
     margin-right: 1em;
 }
+
+/* Leiding */
+#leiding{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1.6em;
+}
+
+.foto{
+    width: 32%;
+    position: relative;
+}
+
+.fototekst{
+    display: none;
+    padding: 0.6em;
+    font-size: 1.2em;;
+}
+
+.foto img{
+    width: 100%;
+}
+
+.fototekst h3{
+    color: #E1143C;
+}
+
+.foto img:hover .fototekst{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    background-color: #00124D;
+    color: white;
+    opacity: 0.7;
+    width: 100%;
+    height: 30%;
+}
