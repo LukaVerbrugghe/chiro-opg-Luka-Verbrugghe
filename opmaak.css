@@ -1,3 +1,8 @@
+@font-face {
+    font-family: CaviarDreams_bold;
+    src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -62,4 +67,27 @@ nav li:hover{
 
 nav li:last-child:hover{
     background-color: #00124D;
+}
+
+/* Foto chiro */
+header{
+    position: relative;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+header img{
+    width: 100%;
+}
+
+header p{
+    position: absolute;
+    top: 1em;
+    width: 60%;
+    left: 20%;
+    font-family: CaviarDreams_bold;
+    font-weight: bold;
+    color: white;
+    font-size: 4em;
+    text-align: center;
 }
