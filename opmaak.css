@@ -96,6 +96,7 @@ header p{
 .blokje{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .blokje .foto{
@@ -126,10 +127,24 @@ header p{
 }
 
 .button{
+    display: inline-block;
     color: #E1143C;
     font-weight: bold;
     font-variant: small-caps;
     letter-spacing: 3px;
-    border: #E1143C 2px solid;
+    border: #E1143C 1px solid;
     padding: 0.5em;
+}
+
+.button:hover{
+    color: white;
+    background-color: #E1143C;
+}
+
+#naastelkaar{
+    display: flex;
+}
+
+#naastelkaar i{
+    margin-right: 1em;
 }
