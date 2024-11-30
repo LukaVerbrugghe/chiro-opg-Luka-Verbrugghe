@@ -148,3 +148,31 @@ header p{
 #naastelkaar i{
     margin-right: 1em;
 }
+
+/* De leiding */
+h1{
+    color: #E1143C;
+    font-size: 2.5em;
+    font-family: CaviarDreams_bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.leiding{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.leiding .foto{
+    width: 32%;
+}
+
+.leiding .foto img{
+    width: 100%;
+}
+
+.driefotos{
+    display: flex;
+    justify-content: space-between;
+}
