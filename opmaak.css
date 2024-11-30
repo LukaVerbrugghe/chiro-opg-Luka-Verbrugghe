@@ -13,3 +13,54 @@ body{
     margin: auto;
 }
 
+/* logo en navigatie */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5em;
+    border-bottom: #E1143C 4px solid;
+}
+
+nav #logo{
+    width: 80%;
+    margin-left: 2em;
+}
+
+nav ul{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.1em;
+    list-style-type: square;
+    color: #E1143C;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-right: 3em;
+}
+
+nav li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+nav li:last-child{
+    color: #00124D;
+    border-bottom: white 1px solid;
+}
+
+nav li{
+    border-bottom: 1px #E1143C solid;
+    padding-bottom: 0.2em;
+}
+
+nav li:hover{
+    color: white;
+    background-color: #E1143C;
+}
+
+nav li:last-child:hover{
+    color: white;
+    background-color: #00124D;
+}
